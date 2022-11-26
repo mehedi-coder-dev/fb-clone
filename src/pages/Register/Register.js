@@ -1,0 +1,29 @@
+import './register.css';
+
+function Login() {
+  return (
+    <div className="login">
+      <div className="loginWrapper">
+        <div className="loginLeft">
+          <h3 className="loginLogo">Mehedisocial</h3>
+          <span className="loginDesc">
+            Connect with firends and the world around you on Mehedisocial
+          </span>
+        </div>
+        <div className="loginRight">
+          <div className="loginBox">
+            <input placeholder="Username" className="loginInput" />
+            <input placeholder="Email" className="loginInput" />
+            <input placeholder="password" className="loginInput" />
+            <input placeholder="Confirm password" className="loginInput" />
+            <button className="loginButton" type="button">Sign Up</button>
+            <button type="button" className="loginRegisterButton">You have already Account </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  );
+}
+
+export default Login;
